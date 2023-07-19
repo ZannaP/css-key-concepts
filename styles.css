@@ -47,7 +47,7 @@ p strong {
 }
 /* section */
 section {
-  padding: 3rem 2rem;
+  padding: 4rem 2rem;
 }
 section:nth-child(odd) {
   background-color: var(--color-surface);
@@ -128,6 +128,10 @@ button:hover {
 }
 .section-with-img img {
   width: 30vw;
+}
+.section-with-img p {
+  font-size: var(--heading-h4-size);
+  line-height: var(--heading-h4-leading);
 }
 /* video */
 section video {
