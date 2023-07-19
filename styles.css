@@ -22,6 +22,7 @@ h4 {
   font-family: "League Gothic", sans-serif;
   font-weight: 400;
   margin-bottom: 0.5em;
+  text-align: center;
 }
 h1 {
   font-size: var(--heading-h1-size);
@@ -127,7 +128,7 @@ button:hover {
   flex-basis: 100%;
 }
 .section-with-img img {
-  width: 30vw;
+  width: 50vw;
 }
 .section-with-img p {
   font-size: var(--heading-h4-size);
@@ -136,4 +137,40 @@ button:hover {
 /* video */
 section video {
   width: 100%;
+}
+/* form */
+form {
+  width: 68vw;
+  margin: 0 auto;
+}
+form legend {
+  margin-bottom: 1em;
+  text-align: center;
+}
+form div label {
+  display: block;
+  text-align: left;
+  margin-left: 0.25rem;
+}
+form div input {
+  width: 100%;
+  font-size: 1.2rem;
+  margin-top: 0.25rem;
+}
+
+form input[type="submit"] {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+  padding: 0.68em 4em;
+  border-radius: 100px;
+  border: none;
+  margin: 2rem auto;
+  display: block;
+}
+form input[type="submit"]:hover {
+  background-color: var(--color-on-surface);
+  color: var(--color-surface);
 }
