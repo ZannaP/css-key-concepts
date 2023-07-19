@@ -94,6 +94,17 @@ nav a:hover {
   color: var(--color-on-primary-20);
 }
 /* img */
-img {
-  width: 100%;
+.section-with-img {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
+.section-with-img h1 {
+  flex-basis: 100%;
+}
+.section-with-img img {
+  width: 30vw;
+}
+/* video */
