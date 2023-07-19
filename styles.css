@@ -13,6 +13,7 @@ body {
   color: var(--color-on-surface);
   background-color: var(--color-background);
 }
+/* typography */
 h1,
 h2,
 h3,
@@ -41,18 +42,23 @@ h4 {
 p {
   margin-bottom: 0.5em;
 }
+p strong {
+  font-weight: bold;
+}
+/* section */
 section {
   padding: 3rem 2rem;
 }
 section:nth-child(odd) {
   background-color: var(--color-surface);
 }
+/* header */
 header {
   width: 100%;
   color: var(--color-on-primary);
   background-color: var(--color-primary);
-  padding: 3rem 2rem;
-  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
   text-align: center;
 }
 header a {
@@ -63,6 +69,31 @@ header a {
 header a:hover {
   color: var(--color-on-primary-20);
 }
+/* nav */
+nav {
+  width: 100%;
+  color: var(--color-on-secondary);
+  background-color: var(--color-secondary);
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  padding-right: 0.3em;
+}
+nav li:last-child {
+  padding-right: 0;
+}
+nav a {
+  color: var(--color-on-primary);
+  text-decoration: none;
+  padding: 0 1em;
+}
+nav a:hover {
+  color: var(--color-on-primary-20);
+}
+/* img */
 img {
   width: 100%;
 }

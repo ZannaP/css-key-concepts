@@ -5,6 +5,8 @@
   --color-primary: rgb(139, 36, 154);
   --color-on-primary: rgba(255, 255, 255, 0.97);
   --color-on-primary-20: rgba(255, 255, 255, 0.67);
+  --color-secondary: rgb(46, 55, 61);
+  --color-on-secondary: rgba(255, 255, 255, 0.97);
 
   --heading-h1-size: clamp(3rem, 2.129rem + 3.871vw, 6rem);
   --heading-h2-size: clamp(2.5rem, 1.7742rem + 3.2258vw, 5rem);
