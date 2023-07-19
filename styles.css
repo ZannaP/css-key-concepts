@@ -1,1 +1,45 @@
 /* CSS */
+/*@import url("./node_modules/normalize.css/normalize.css");*/
+@import url("reset.css");
+@import url("vars.css");
+body {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--color-on-surface);
+  background-color: var(--color-background);
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-primary);
+  font-family: "League Gothic", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+h1 {
+  font-size: var(--heading-h1-size);
+  line-height: var(--heading-h1-leading);
+}
+h2 {
+  font-size: var(--heading-h2-size);
+  line-height: var(--heading-h2-leading);
+}
+h3 {
+  font-size: var(--heading-h3-size);
+  line-height: var(--heading-h3-leading);
+}
+h4 {
+  font-size: var(--heading-h4-size);
+  line-height: var(--heading-h4-leading);
+}
+p {
+  margin-bottom: 0.5em;
+}
+section {
+  padding: 3rem 2rem;
+}
+section:nth-child(odd) {
+  background-color: var(--color-surface);
+}
