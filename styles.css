@@ -93,9 +93,31 @@ nav a {
 nav a:hover {
   color: var(--color-on-primary-20);
 }
+/* search */
+input,
+input,
+button {
+  margin: 0.8em 0.2em 0.8em 0.2em;
+  font-family: "Didact Gothic", sans-serif;
+}
+label {
+  margin-left: 2rem;
+}
+input {
+  padding: 0.5em;
+}
+button {
+  padding: 0.5em 1em;
+  background-color: var(--color-surface);
+  font-weight: bold;
+  letter-spacing: 0.07em;
+}
+button:hover {
+  background-color: var(--color-on-surface);
+  color: var(--color-surface);
+}
 /* img */
 .section-with-img {
-  background-color: red;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -108,3 +130,6 @@ nav a:hover {
   width: 30vw;
 }
 /* video */
+section video {
+  width: 100%;
+}
